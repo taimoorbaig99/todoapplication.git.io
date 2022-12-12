@@ -1,0 +1,65 @@
+.custom{
+    height: 50px;
+    width: 100vw;
+}
+.main{
+    background-image: url('./todo\ background\ pic.jpg');
+    background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+
+.lunder{
+    list-style-type:decimal;
+    text-decoration: underline solid rgb(104, 88, 88);
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-right: 5px;
+  
+}
+.edbtn{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    margin: 8px;
+    color: white;
+    border: none;
+    width: 50px;
+    text-decoration: none;
+}
+.edbtn:hover{
+    border: 2px solid blue;
+}
+.delbtn{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    margin: 8px;
+    color: white;
+    border: none;
+    width: 60px;
+    text-decoration: none;
+}
+.delbtn:hover{
+    border: 2px solid red;
+}
+.adbtn{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cusbtn{
+    background-color:yellow;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
